@@ -1,0 +1,7 @@
+C:\Users\sistemas\Desktop\Diars-LAB\VentaPasajes\CapaPersistencia\bin\Debug\CapaPersistencia.dll
+C:\Users\sistemas\Desktop\Diars-LAB\VentaPasajes\CapaPersistencia\bin\Debug\CapaPersistencia.pdb
+C:\Users\sistemas\Desktop\Diars-LAB\VentaPasajes\CapaPersistencia\bin\Debug\CapaDominio.dll
+C:\Users\sistemas\Desktop\Diars-LAB\VentaPasajes\CapaPersistencia\bin\Debug\CapaDominio.pdb
+C:\Users\sistemas\Desktop\Diars-LAB\VentaPasajes\CapaPersistencia\obj\Debug\CapaPersistencia.csprojResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\Diars-LAB\VentaPasajes\CapaPersistencia\obj\Debug\CapaPersistencia.dll
+C:\Users\sistemas\Desktop\Diars-LAB\VentaPasajes\CapaPersistencia\obj\Debug\CapaPersistencia.pdb

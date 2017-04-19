@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Desing/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Login</title>
+</head>
+<body>
+    <div>
+        <center>
+            Acceso a INTRANET
+        </center>
+        <br />
+        <form method="post" action="Login">
+
+            <center>
+                <table>
+                    <tr>
+                        <td>Usuario</td>
+                        <td> <input type="text" name="txtUser" /> </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="txtPassword" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+
+                            <input type="submit" class="btn btn-success" value="INGRESAR" />
+                            <input type="submit" class="btn btn-danger" value="CANCEL" />
+
+                        </td>
+                    </tr>
+                </table>
+                @ViewBag.mensaje
+            </center>
+
+        </form>
+       
+
+    </div>
+</body>
+</html>

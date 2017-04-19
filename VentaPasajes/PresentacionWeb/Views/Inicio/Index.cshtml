@@ -1,0 +1,58 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head lang="es">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="~/Desing/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+
+    <title>Ingreso</title>
+</head>
+<body class="container">
+    <div class="row">
+        @Html.ActionLink("IR INTRANET","Login","Intranet");
+        <h3>
+            <i class="glyphicon glyphicon-eye-open"></i>
+            Hello world
+        </h3>
+        <form method="post" class="col-lg-12">
+            <div class="form-group">
+                <input name="Nombre" class="form-control" placeholder="Nombre" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> Agregar</button>
+            </div>
+
+</form>
+        <div class="col-lg-12">
+            @{
+                if (ViewBag.m != null)
+                {
+                    if (ViewBag.i == 1)
+                    {
+                        <div class="alert alert-info" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>@ViewBag.m</div>
+                    }
+                    else if (ViewBag.i == 2)
+                    {
+                        <div class="alert alert-danger" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>@ViewBag.m</div>
+                    }
+                }
+            }
+        </div>
+    </div>
+
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    -->
+    <script src="~/Desing/js/bootstrap.min.js"></script>
+</body>
+</html>
